@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свадебный сайт приглашение</title>
+</head>
+<body>
+
+   <form action="https://www.google.com/">
+    <p>
+        <label for="name"><strong>Имя: </strong></label> 
+        <input required id="name" type="text" placeholder="Anna" name="Name">
+    </p>
+
+    <p>
+        <label for="transfer"><strong>Нужен ли Вам трансфер:</strong></label>
+        да<input id="transfer" type="radio" name="trans" value="Transfer please"> нет<input type="radio" name="trans" value="No transprort needed">
+    </p>
+
+    <p>
+        <label for="meal"><strong>Какая еда предпочтительнее для Вас:</strong></label> 
+        мясо <input id="meal" type="radio" name="meal" value="meat"> 
+        рыба <input type="radio" name="meal" value="fish"> 
+        птица <input type="radio" name="meal" value="bird"> 
+        свой вариант <input type="text">   
+    </p>
+
+    <p> 
+        <label for="drink"><strong>Что Вы будете пить:</strong></label>
+        коньяк <input id="drink" type="radio" name="drink" value="cognac"> 
+        пиво <input type="radio" name="drink" value="beer"> 
+        виски <input type="radio" name="drink" value="wiskey"> 
+        свой вариант <input type="text">
+    </p>
+
+    <p>
+        <label for="car"><strong>Если Вы едете на своём авто, то укажите количество свободных мест: </strong></label>
+        <input id="car" type="text" placeholder="1,2,3...">
+    </p>
+
+    <p>
+        <label for="email"><strong>Оставьте свой адрес электронной почты: </strong></label>
+        <input required id="email" type="email" placeholder="example@example.com">
+    </p>
+
+    <p>
+       <label for="livecondition"><strong>Какой тип номера Вы предпочитаете?</strong></label> 
+        <select name="livecond" id="livecondition">
+            <option value="onebed">1-комнатный номер</option>
+            <option value="twobed">2-комнатный номер</option>
+            <option value="threebed">3-комнатный номер</option>
+            <option value="groupbed">4-комнатный номер</option>
+
+        </select>
+    </p>
+
+    <p>
+        <label for="sendform"><strong>Отправить анкету</strong></label>
+        <input type="submit" value="Submit" id="sendform">
+    </p>
+
+   </form>
+
+</body>
+</html>
